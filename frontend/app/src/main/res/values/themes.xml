@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Rename Theme.Frontend → Theme.GarmentInspectionApp and use MaterialComponents -->
+    <style name="Theme.GarmentInspectionApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <!-- Darker variant for status bar -->
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <!-- Text/icon color on primary -->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary accent color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <!-- Text/icon color on secondary -->
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Background colors -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+    </style>
+</resources>
